@@ -1,0 +1,14 @@
+.movie-card {
+  border: 1px solid transparent;
+  background-color: rgb(43, 42, 42);
+  cursor: pointer;
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+}
