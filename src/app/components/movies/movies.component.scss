@@ -11,4 +11,14 @@
   h5 {
     font-size: 20px;
   }
+
+  .round-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+
+  .clicked svg {
+    fill: rgb(228, 151, 19);
+  }
 }

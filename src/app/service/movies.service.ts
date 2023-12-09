@@ -1,7 +1,10 @@
 import { Injectable } from '@angular/core';
 import { environment } from 'src/environments/environment';
 import { HttpClient } from '@angular/common/http';
+import { Observable, throwError } from 'rxjs';
 import { Movies } from '../models/movies';
+import { AuthService } from '../auth/auth.service';
+import { catchError } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root',
@@ -9,19 +12,12 @@ import { Movies } from '../models/movies';
 export class MoviesService {
   apiURL = environment.apiURL;
 
-  constructor(private http: HttpClient) {}
+  private favoriteMovies: Movies[] = [];
 
-  recupera() {
+  constructor(private http: HttpClient, private authSrv: AuthService) {}
+
+  recupera(): Observable<Movies[]> {
     return this.http.get<Movies[]>(`${this.apiURL}movies-popular`);
-  }
-
-  addToFavorites(movie: Movies) {
-    const userId = '';
-
-    const endpoint = `${this.apiURL}favorites`;
-    const payload = { userId: userId, movieId: movie.id };
-
-    return this.http.post<Movies>(endpoint, payload);
   }
 
   getMoviePosterUrl(posterPath: string | null): string {
@@ -30,5 +26,35 @@ export class MoviesService {
       : 'path_to_default_image';
     console.log('Image URL:', imageUrl);
     return imageUrl;
+  }
+
+  addToFavorites(movie: Movies): Observable<any> {
+    const userId = this.authSrv.getUserId();
+
+    const endpoint = `${this.apiURL}favorites`;
+    const payload = { userId: userId, movieId: movie.id };
+
+    this.favoriteMovies.push(movie);
+
+    return this.http.post(endpoint, payload);
+  }
+
+  getFavorites(): Observable<Movies[]> {
+    const userId = this.authSrv.getUserId();
+
+    return this.http
+      .get<Movies[]>(`${this.apiURL}favorites?userId=${userId}`)
+      .pipe(
+        catchError((error) => {
+          console.error('Error fetching favorites:', error);
+          return throwError(
+            'Failed to fetch favorites. Please try again later.'
+          );
+        })
+      );
+  }
+
+  getFavoriteMovies(): Movies[] {
+    return this.favoriteMovies;
   }
 }

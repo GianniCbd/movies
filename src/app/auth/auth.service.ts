@@ -73,4 +73,15 @@ export class AuthService {
         break;
     }
   }
+
+  getUserId(): number | null {
+    const authData = this.authSubj.value;
+
+    // Verifica se authData è valido e se ha una proprietà user con l'ID utente
+    if (authData && authData.user && authData.user.id) {
+      return authData.user.id;
+    }
+
+    return null;
+  }
 }

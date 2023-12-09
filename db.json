@@ -26,6 +26,34 @@
       "nome": "marco",
       "cognome": "bianchi",
       "id": 5
+    },
+    {
+      "email": "mario@lino.com",
+      "password": "$2a$10$WJnHAqwDEvI3IjiqVE8Xf../qH2QaTD48v9SFs34yE/8hsF9HO7kG",
+      "nome": "mario",
+      "cognome": "lino",
+      "id": 6
+    },
+    {
+      "email": "marco@ciao.com",
+      "password": "$2a$10$DDtr8nA2Exy2oFhkPbGDt.U5J9rzeGQH7/ntUXAH02c8z2oDUJyLK",
+      "nome": "ciao",
+      "cognome": "ciao",
+      "id": 7
+    },
+    {
+      "email": "gianni@cabiddu.com",
+      "password": "$2a$10$Aw..CddDYZAHswVvtB5vn.zp3TIpguFtVfqVH9KVFGkzQtFjLARra",
+      "nome": "gianni",
+      "cognome": "cabiddu",
+      "id": 8
+    },
+    {
+      "email": "luca@rossi.it",
+      "password": "$2a$10$.uP6DhpZ8Jm9KVGctaBNRO/z18LrGZp7KXM7UYO0CkbwF5Nhnrr9e",
+      "nome": "luca",
+      "cognome": "rossi",
+      "id": 9
     }
   ],
   "favorites": [
@@ -38,6 +66,21 @@
       "userId": 2,
       "movieId": 632357,
       "id": 8
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 9
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 10
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 11
     }
   ],
   "movies-popular": [
