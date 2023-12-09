@@ -7,6 +7,7 @@
         id="nome"
         formControlName="nome"
         class="form-control"
+        pattern="^[a-zA-Z]+$"
       />
       <div
         *ngIf="
@@ -24,6 +25,9 @@
       >
         Il nome deve essere lungo almeno 3 caratteri.
       </div>
+      <div *ngIf="registrationForm.get('nome')!.hasError('pattern')">
+        Il nome deve contenere solo caratteri alfabetici.
+      </div>
     </div>
 
     <div class="formGroup">
@@ -33,6 +37,7 @@
         id="cognome"
         formControlName="cognome"
         class="form-control"
+        pattern="^[a-zA-Z]+$"
       />
       <div
         *ngIf="
@@ -48,7 +53,10 @@
           registrationForm.get('cognome')!.touched
         "
       >
-        Il nome deve essere lungo almeno 3 caratteri.
+        Il Cognnome deve essere lungo almeno 3 caratteri.
+      </div>
+      <div *ngIf="registrationForm.get('cognome')!.hasError('pattern')">
+        Il Cognome deve contenere solo caratteri alfabetici.
       </div>
     </div>
 
@@ -106,7 +114,7 @@
 
     <div class="d-flex justify-content-center">
       <button
-        class="btn mt-3"
+        class="btnReg btn mt-3 border border-black fw-bold"
         type="submit"
         [disabled]="!registrationForm.valid"
       >

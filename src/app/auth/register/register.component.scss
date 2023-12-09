@@ -1,5 +1,8 @@
 .container {
-  height: 50vh;
+  height: 60vh;
+  width: 30%;
+  background-color: rgb(228, 151, 19);
+  color: black;
 }
 .card {
   width: 350px;
@@ -10,8 +13,14 @@
   .formGroup {
     margin-bottom: 10px;
   }
-  .btn {
+  .btnReg {
     background-color: black;
     color: rgb(228, 151, 19);
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+
+  .btnReg:hover {
+    transform: scale(1, 1);
   }
 }
