@@ -1,12 +1,6 @@
 {
   "users": [
     {
-      "email": "dario@dario.com",
-      "password": "$2a$10$ZLY63quWnMVo0lO951uFdOJRfUxeo8U6YJ/Cue06Vgp4Ad8S/CjaC",
-      "name": "Dario",
-      "id": 2
-    },
-    {
       "email": "mario@rossi.com",
       "password": "$2a$10$P3MNoYN12M7rQCJsaLaVOeyFPCah/Jxs7mL/YqwgtQWxAMMH7gElO",
       "nome": "mario",
@@ -54,19 +48,16 @@
       "nome": "luca",
       "cognome": "rossi",
       "id": 9
+    },
+    {
+      "email": "paolo@paoli.com",
+      "password": "$2a$10$NYRxWvBJp0UvbQANwitHneNyDR3HJCaLPICUDLFp/jpW.vfzxTdCu",
+      "nome": "paolo",
+      "cognome": "paoli",
+      "id": 10
     }
   ],
   "favorites": [
-    {
-      "userId": 2,
-      "movieId": 460465,
-      "id": 6
-    },
-    {
-      "userId": 2,
-      "movieId": 632357,
-      "id": 8
-    },
     {
       "userId": 5,
       "movieId": 460465,
@@ -121,13 +112,272 @@
       "userId": 5,
       "movieId": 578701,
       "id": 19
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 20
+    },
+    {
+      "userId": 5,
+      "movieId": 567189,
+      "id": 21
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 22
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 23
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 24
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 25
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 26
+    },
+    {
+      "userId": 5,
+      "movieId": 567189,
+      "id": 27
+    },
+    {
+      "userId": 5,
+      "movieId": 578701,
+      "id": 28
+    },
+    {
+      "userId": 5,
+      "movieId": 567189,
+      "id": 29
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 30
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 31
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 32
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 33
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 34
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 35
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 36
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 37
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 38
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 39
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 40
+    },
+    {
+      "userId": 5,
+      "movieId": 567189,
+      "id": 41
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 42
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 43
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 44
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 45
+    },
+    {
+      "userId": 5,
+      "movieId": 578701,
+      "id": 46
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 47
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 48
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 49
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 50
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 51
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 52
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 53
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 54
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 55
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 56
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 57
+    },
+    {
+      "userId": 5,
+      "movieId": 578701,
+      "id": 58
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 59
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 60
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 61
+    },
+    {
+      "userId": 10,
+      "movieId": 460465,
+      "id": 62
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 63
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 64
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 65
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 66
+    },
+    {
+      "userId": 5,
+      "movieId": 632357,
+      "id": 67
+    },
+    {
+      "userId": 5,
+      "movieId": 578701,
+      "id": 68
+    },
+    {
+      "userId": 5,
+      "movieId": 567189,
+      "id": 69
+    },
+    {
+      "userId": 5,
+      "movieId": 460465,
+      "id": 70
     }
   ],
   "movies-popular": [
     {
       "adult": false,
       "backdrop_path": "/6ELCZlTA5lGUops70hKdB83WJxH.jpg",
-      "genre_ids": [28, 14, 12],
+      "genre_ids": [
+        28,
+        14,
+        12
+      ],
       "id": 460465,
       "original_language": "en",
       "original_title": "Mortal Kombat",
@@ -143,7 +393,11 @@
     {
       "adult": false,
       "backdrop_path": "/fPGeS6jgdLovQAKunNHX8l0avCy.jpg",
-      "genre_ids": [28, 53, 10752],
+      "genre_ids": [
+        28,
+        53,
+        10752
+      ],
       "id": 567189,
       "original_language": "en",
       "original_title": "Tom Clancy's Without Remorse",
@@ -159,7 +413,12 @@
     {
       "adult": false,
       "backdrop_path": "/iDdpiUnCeXvBmrkBFpL6lKsZt33.jpg",
-      "genre_ids": [53, 18, 28, 9648],
+      "genre_ids": [
+        53,
+        18,
+        28,
+        9648
+      ],
       "id": 578701,
       "original_language": "en",
       "original_title": "Those Who Wish Me Dead",
@@ -175,7 +434,9 @@
     {
       "adult": false,
       "backdrop_path": "/blk6UPEoaKwlFIEuHWhVEuTQULC.jpg",
-      "genre_ids": [27],
+      "genre_ids": [
+        27
+      ],
       "id": 632357,
       "original_language": "en",
       "original_title": "The Unholy",
@@ -191,7 +452,11 @@
     {
       "adult": false,
       "backdrop_path": "/mYM8x2Atv4MaLulaV0KVJWI1Djv.jpg",
-      "genre_ids": [28, 80, 53],
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
       "id": 804435,
       "original_language": "en",
       "original_title": "Vanquish",
@@ -207,7 +472,10 @@
     {
       "adult": false,
       "backdrop_path": "/inJjDhCjfhh3RtrJWBmmDqeuSYC.jpg",
-      "genre_ids": [28, 878],
+      "genre_ids": [
+        28,
+        878
+      ],
       "id": 399566,
       "original_language": "en",
       "original_title": "Godzilla vs. Kong",
@@ -223,7 +491,12 @@
     {
       "adult": false,
       "backdrop_path": "/6zbKgwgaaCyyBXE4Sun4oWQfQmi.jpg",
-      "genre_ids": [28, 53, 80, 35],
+      "genre_ids": [
+        28,
+        53,
+        80,
+        35
+      ],
       "id": 615457,
       "original_language": "en",
       "original_title": "Nobody",
@@ -239,7 +512,9 @@
     {
       "adult": false,
       "backdrop_path": "/xrAaJAn3hqkInq5kE1AGJqIGXyT.jpg",
-      "genre_ids": [27],
+      "genre_ids": [
+        27
+      ],
       "id": 573680,
       "original_language": "en",
       "original_title": "The Banishing",
@@ -255,7 +530,11 @@
     {
       "adult": false,
       "backdrop_path": "/3Ef8PWUiP1ehO1ESEroxb736srR.jpg",
-      "genre_ids": [53, 28, 80],
+      "genre_ids": [
+        53,
+        28,
+        80
+      ],
       "id": 808023,
       "original_language": "en",
       "original_title": "The Virtuoso",
@@ -271,7 +550,11 @@
     {
       "adult": false,
       "backdrop_path": "/fejok33Ijc6SppiEU1cfwA9Mo2.jpg",
-      "genre_ids": [28, 80, 18],
+      "genre_ids": [
+        28,
+        80,
+        18
+      ],
       "id": 717192,
       "original_language": "nl",
       "original_title": "Ferry",
@@ -287,7 +570,13 @@
     {
       "adult": false,
       "backdrop_path": "/xPpXYnCWfjkt3zzE0dpCNME1pXF.jpg",
-      "genre_ids": [16, 28, 12, 14, 18],
+      "genre_ids": [
+        16,
+        28,
+        12,
+        14,
+        18
+      ],
       "id": 635302,
       "original_language": "ja",
       "original_title": "劇場版「鬼滅の刃」無限列車編",
@@ -303,7 +592,12 @@
     {
       "adult": false,
       "backdrop_path": "/pcDc2WJAYGJTTvRSEIpRZwM3Ola.jpg",
-      "genre_ids": [28, 12, 14, 878],
+      "genre_ids": [
+        28,
+        12,
+        14,
+        878
+      ],
       "id": 791373,
       "original_language": "en",
       "original_title": "Zack Snyder's Justice League",
@@ -319,7 +613,12 @@
     {
       "adult": false,
       "backdrop_path": "/gPKcJzrbgs1670fOeKN1xQH9mNa.jpg",
-      "genre_ids": [80, 18, 9648, 53],
+      "genre_ids": [
+        80,
+        18,
+        9648,
+        53
+      ],
       "id": 823855,
       "original_language": "en",
       "original_title": "I Am All Girls",
@@ -335,7 +634,11 @@
     {
       "adult": false,
       "backdrop_path": "/n2y7T8wJVjJ8yLhQXQgNCpsC3ga.jpg",
-      "genre_ids": [10751, 16, 35],
+      "genre_ids": [
+        10751,
+        16,
+        35
+      ],
       "id": 811367,
       "original_language": "en",
       "original_title": "22 vs. Earth",
@@ -351,7 +654,13 @@
     {
       "adult": false,
       "backdrop_path": "/hJuDvwzS0SPlsE6MNFOpznQltDZ.jpg",
-      "genre_ids": [16, 12, 14, 10751, 28],
+      "genre_ids": [
+        16,
+        12,
+        14,
+        10751,
+        28
+      ],
       "id": 527774,
       "original_language": "en",
       "original_title": "Raya and the Last Dragon",
@@ -367,7 +676,12 @@
     {
       "adult": false,
       "backdrop_path": "/lHhc60NXYzswU4TvKSo45nY9Jzs.jpg",
-      "genre_ids": [16, 35, 10751, 12],
+      "genre_ids": [
+        16,
+        35,
+        10751,
+        12
+      ],
       "id": 726684,
       "original_language": "fr",
       "original_title": "Miraculous World : Shanghai, la légende de Ladydragon",
@@ -383,7 +697,11 @@
     {
       "adult": false,
       "backdrop_path": "/qqkpwhiB1BQcSvegL10uHKMzKKl.jpg",
-      "genre_ids": [16, 35, 14],
+      "genre_ids": [
+        16,
+        35,
+        14
+      ],
       "id": 813258,
       "original_language": "en",
       "original_title": "Monster Pets: A Hotel Transylvania Short",
@@ -399,7 +717,10 @@
     {
       "adult": false,
       "backdrop_path": "/yC4DRg5aGgNpkHpUDpLtBqzownS.jpg",
-      "genre_ids": [878, 28],
+      "genre_ids": [
+        878,
+        28
+      ],
       "id": 586047,
       "original_language": "ko",
       "original_title": "서복",
@@ -415,7 +736,11 @@
     {
       "adult": false,
       "backdrop_path": "/c0izdYdnTe4uMRifHgvTA85wPz0.jpg",
-      "genre_ids": [28, 27, 53],
+      "genre_ids": [
+        28,
+        27,
+        53
+      ],
       "id": 503736,
       "original_language": "en",
       "original_title": "Army of the Dead",
@@ -431,7 +756,11 @@
     {
       "adult": false,
       "backdrop_path": "/5Zv5KmgZzdIvXz2KC3n0MyecSNL.jpg",
-      "genre_ids": [28, 53, 80],
+      "genre_ids": [
+        28,
+        53,
+        80
+      ],
       "id": 634528,
       "original_language": "en",
       "original_title": "The Marksman",
@@ -447,7 +776,11 @@
     {
       "adult": false,
       "backdrop_path": "/gNBCvtYyGPbjPCT1k3MvJuNuXR6.jpg",
-      "genre_ids": [35, 18, 10749],
+      "genre_ids": [
+        35,
+        18,
+        10749
+      ],
       "id": 19404,
       "original_language": "hi",
       "original_title": "दिलवाले दुल्हनिया ले जायेंगे",
@@ -463,7 +796,9 @@
     {
       "adult": false,
       "backdrop_path": "/jtAI6OJIWLWiRItNSZoWjrsUtmi.jpg",
-      "genre_ids": [10749],
+      "genre_ids": [
+        10749
+      ],
       "id": 724089,
       "original_language": "en",
       "original_title": "Gabriel's Inferno Part II",
@@ -479,7 +814,10 @@
     {
       "adult": false,
       "backdrop_path": "/iNh3BivHyg5sQRPP1KOkzguEX0H.jpg",
-      "genre_ids": [18, 80],
+      "genre_ids": [
+        18,
+        80
+      ],
       "id": 278,
       "original_language": "en",
       "original_title": "The Shawshank Redemption",
@@ -495,7 +833,9 @@
     {
       "adult": false,
       "backdrop_path": "/w2uGvCpMtvRqZg6waC1hvLyZoJa.jpg",
-      "genre_ids": [10749],
+      "genre_ids": [
+        10749
+      ],
       "id": 696374,
       "original_language": "en",
       "original_title": "Gabriel's Inferno",
@@ -513,7 +853,11 @@
     {
       "adult": false,
       "backdrop_path": "/gNBCvtYyGPbjPCT1k3MvJuNuXR6.jpg",
-      "genre_ids": [35, 18, 10749],
+      "genre_ids": [
+        35,
+        18,
+        10749
+      ],
       "id": 19404,
       "original_language": "hi",
       "original_title": "दिलवाले दुल्हनिया ले जायेंगे",
@@ -529,7 +873,9 @@
     {
       "adult": false,
       "backdrop_path": "/jtAI6OJIWLWiRItNSZoWjrsUtmi.jpg",
-      "genre_ids": [10749],
+      "genre_ids": [
+        10749
+      ],
       "id": 724089,
       "original_language": "en",
       "original_title": "Gabriel's Inferno Part II",
@@ -545,7 +891,10 @@
     {
       "adult": false,
       "backdrop_path": "/iNh3BivHyg5sQRPP1KOkzguEX0H.jpg",
-      "genre_ids": [18, 80],
+      "genre_ids": [
+        18,
+        80
+      ],
       "id": 278,
       "original_language": "en",
       "original_title": "The Shawshank Redemption",
@@ -561,7 +910,10 @@
     {
       "adult": false,
       "backdrop_path": "/rSPw7tgCH9c6NqICZef4kZjFOQ5.jpg",
-      "genre_ids": [18, 80],
+      "genre_ids": [
+        18,
+        80
+      ],
       "id": 238,
       "original_language": "en",
       "original_title": "The Godfather",
@@ -577,7 +929,10 @@
     {
       "adult": false,
       "backdrop_path": "/fQq1FWp1rC89xDrRMuyFJdFUdMd.jpg",
-      "genre_ids": [10749, 35],
+      "genre_ids": [
+        10749,
+        35
+      ],
       "id": 761053,
       "original_language": "en",
       "original_title": "Gabriel's Inferno Part III",
@@ -593,7 +948,9 @@
     {
       "adult": false,
       "backdrop_path": "/w2uGvCpMtvRqZg6waC1hvLyZoJa.jpg",
-      "genre_ids": [10749],
+      "genre_ids": [
+        10749
+      ],
       "id": 696374,
       "original_language": "en",
       "original_title": "Gabriel's Inferno",
@@ -609,7 +966,11 @@
     {
       "adult": false,
       "backdrop_path": "/loRmRzQXZeqG78TqZuyvSlEQfZb.jpg",
-      "genre_ids": [18, 36, 10752],
+      "genre_ids": [
+        18,
+        36,
+        10752
+      ],
       "id": 424,
       "original_language": "en",
       "original_title": "Schindler's List",
@@ -625,7 +986,10 @@
     {
       "adult": false,
       "backdrop_path": "/poec6RqOKY9iSiIUmfyfPfiLtvB.jpg",
-      "genre_ids": [18, 80],
+      "genre_ids": [
+        18,
+        80
+      ],
       "id": 240,
       "original_language": "en",
       "original_title": "The Godfather: Part II",
@@ -641,7 +1005,11 @@
     {
       "adult": false,
       "backdrop_path": "/dIWwZW7dJJtqC6CgWzYkNVKIUm8.jpg",
-      "genre_ids": [10749, 16, 18],
+      "genre_ids": [
+        10749,
+        16,
+        18
+      ],
       "id": 372058,
       "original_language": "ja",
       "original_title": "君の名は。",
@@ -657,7 +1025,11 @@
     {
       "adult": false,
       "backdrop_path": "/Ab8mkHmkYADjU7wQiOkia9BzGvS.jpg",
-      "genre_ids": [16, 10751, 14],
+      "genre_ids": [
+        16,
+        10751,
+        14
+      ],
       "id": 129,
       "original_language": "ja",
       "original_title": "千と千尋の神隠し",
@@ -673,7 +1045,11 @@
     {
       "adult": false,
       "backdrop_path": "/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
-      "genre_ids": [35, 53, 18],
+      "genre_ids": [
+        35,
+        53,
+        18
+      ],
       "id": 496243,
       "original_language": "ko",
       "original_title": "기생충",
@@ -689,7 +1065,12 @@
     {
       "adult": false,
       "backdrop_path": "/yeJhRNtE4XW2lOoVVFO9iuDr3AL.jpg",
-      "genre_ids": [10751, 12, 16, 14],
+      "genre_ids": [
+        10751,
+        12,
+        16,
+        14
+      ],
       "id": 441130,
       "original_language": "en",
       "original_title": "Wolfwalkers",
@@ -705,7 +1086,11 @@
     {
       "adult": false,
       "backdrop_path": "/xMIyotorUv2Yz7zpQz2QYc8wkWB.jpg",
-      "genre_ids": [14, 18, 80],
+      "genre_ids": [
+        14,
+        18,
+        80
+      ],
       "id": 497,
       "original_language": "en",
       "original_title": "The Green Mile",
@@ -721,7 +1106,10 @@
     {
       "adult": false,
       "backdrop_path": "/88J6waYVTta8Qz3iX3qUeWNA5d5.jpg",
-      "genre_ids": [18, 10749],
+      "genre_ids": [
+        18,
+        10749
+      ],
       "id": 447362,
       "original_language": "en",
       "original_title": "Life in a Year",
@@ -737,7 +1125,12 @@
     {
       "adult": false,
       "backdrop_path": "/9guoVF7zayiiUq5ulKQpt375VIy.jpg",
-      "genre_ids": [16, 28, 14, 12],
+      "genre_ids": [
+        16,
+        28,
+        14,
+        12
+      ],
       "id": 592350,
       "original_language": "ja",
       "original_title": "僕のヒーローアカデミア THE MOVIE ヒーローズ：ライジング",
@@ -753,7 +1146,10 @@
     {
       "adult": false,
       "backdrop_path": "/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
-      "genre_ids": [53, 80],
+      "genre_ids": [
+        53,
+        80
+      ],
       "id": 680,
       "original_language": "en",
       "original_title": "Pulp Fiction",
@@ -769,7 +1165,9 @@
     {
       "adult": false,
       "backdrop_path": "/qqHQsStV6exghCM7zbObuYBiYxw.jpg",
-      "genre_ids": [18],
+      "genre_ids": [
+        18
+      ],
       "id": 389,
       "original_language": "en",
       "original_title": "12 Angry Men",
@@ -785,7 +1183,11 @@
     {
       "adult": false,
       "backdrop_path": "/uWVkEo9PWHu9algZsiLPi6sRU64.jpg",
-      "genre_ids": [36, 10402, 18],
+      "genre_ids": [
+        36,
+        10402,
+        18
+      ],
       "id": 556574,
       "original_language": "en",
       "original_title": "Hamilton",
@@ -801,7 +1203,12 @@
     {
       "adult": false,
       "backdrop_path": "/pcDc2WJAYGJTTvRSEIpRZwM3Ola.jpg",
-      "genre_ids": [28, 12, 14, 878],
+      "genre_ids": [
+        28,
+        12,
+        14,
+        878
+      ],
       "id": 791373,
       "original_language": "en",
       "original_title": "Zack Snyder's Justice League",
@@ -817,7 +1224,13 @@
     {
       "adult": false,
       "backdrop_path": "/hQQTE285UQB1lLY1XiioQ77LYnC.jpg",
-      "genre_ids": [16, 35, 10749, 18, 14],
+      "genre_ids": [
+        16,
+        35,
+        10749,
+        18,
+        14
+      ],
       "id": 572154,
       "original_language": "ja",
       "original_title": "青春ブタ野郎はゆめみる少女の夢を見ない",

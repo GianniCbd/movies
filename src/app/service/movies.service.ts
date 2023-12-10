@@ -38,7 +38,14 @@ export class MoviesService {
 
     return this.http.post(endpoint, payload);
   }
+  // ---------------------------------------
+  deleteFavoriteMovie(movieId: number): Observable<void> {
+    const endpoint = `${this.apiURL}favorites/${movieId}`;
+    console.log('Delete Endpoint:', endpoint);
 
+    return this.http.delete<void>(endpoint);
+  }
+  //----------------------------------------
   getFavorites(): Observable<Movies[]> {
     const userId = this.authSrv.getUserId();
 

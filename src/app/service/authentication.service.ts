@@ -1,18 +1,17 @@
 import { Injectable } from '@angular/core';
-import { environment } from 'src/environments/environment';
 import { HttpClient } from '@angular/common/http';
-import { Users } from '../models/users';
-import { Observable, throwError } from 'rxjs';
+import { Observable } from 'rxjs';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root',
 })
-export class AuthenticationService {
+export class UserService {
   apiURL = environment.apiURL;
 
   constructor(private http: HttpClient) {}
 
-  recuperaUtente(userId: number): Observable<Users> {
-    return this.http.get<Users>(`${this.apiURL}users/${userId}`);
+  getUsers(): Observable<any[]> {
+    return this.http.get<any[]>(this.apiURL);
   }
 }

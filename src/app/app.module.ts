@@ -16,7 +16,6 @@ import { RegisterComponent } from './auth/register/register.component';
 import { AuthGuard } from './auth/auth.guard';
 import { MoviesComponent } from './components/movies/movies.component';
 import { FavoritesComponent } from './components/favorites/favorites/favorites.component';
-import { UserComponent } from './auth/user/user.component';
 
 const routes: Route[] = [
   {
@@ -31,12 +30,6 @@ const routes: Route[] = [
   {
     path: 'favorites',
     component: FavoritesComponent,
-    canActivate: [AuthGuard],
-  },
-  {
-    path: 'user',
-    component: UserComponent,
-    canActivate: [AuthGuard],
   },
 
   {
@@ -62,7 +55,6 @@ const routes: Route[] = [
     LoginComponent,
     RegisterComponent,
     FavoritesComponent,
-    UserComponent,
   ],
   imports: [
     BrowserModule,

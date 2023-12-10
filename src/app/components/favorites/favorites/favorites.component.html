@@ -1,4 +1,4 @@
-<div *ngIf="favoriteMovies.length">
+<div *ngIf="favoriteMovies.length > 0">
   <h2>I tuoi film preferiti</h2>
   <div class="favorite-list">
     <div *ngFor="let movie of favoriteMovies" class="favorite-item">
@@ -11,6 +11,9 @@
             width="300px"
             height="400px"
           />
+          <button class="btnRemove" (click)="removeFromFavorites(movie)">
+            Elimina
+          </button>
         </div>
       </div>
     </div>

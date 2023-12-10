@@ -28,6 +28,20 @@ export class FavoritesComponent implements OnInit {
     );
   }
 
+  removeFromFavorites(movie: Movies): void {
+    this.moviesSrv.deleteFavoriteMovie(movie.id).subscribe(
+      () => {
+        console.log('Film removed from favorites:', movie);
+        this.favoriteMovies = this.favoriteMovies.filter(
+          (m) => m.id !== movie.id
+        );
+      },
+      (error) => {
+        console.error('Error removing from favorites:', error);
+      }
+    );
+  }
+
   navigateToFavoritePage(): void {
     this.router.navigate(['/preferiti', { favorites: this.favoriteMovies }]);
   }

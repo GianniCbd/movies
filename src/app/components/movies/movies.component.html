@@ -7,7 +7,7 @@
           <img
             src="http://image.tmdb.org/t/p/w500{{ movie.poster_path }}"
             alt="{{ movie.title }} Poster"
-            class="poster-image"
+            class="poster-image img-fluid"
             width="300px"
             height="400px"
           />
@@ -56,5 +56,7 @@
   </div>
 </div>
 <div *ngIf="!movies">
-  <p>Loading movies...</p>
+  <div class="spinner-border text-warning m-2" role="status">
+    <span class="visually-hidden">Loading movies...</span>
+  </div>
 </div>
