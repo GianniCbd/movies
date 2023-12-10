@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand bg-body-dark border border-bottom-white mb-5">
+<nav class="navbar navbar-expand bg-body-dark border border-bottom-white">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Epic<span>Hub</span></a>
 
@@ -26,6 +26,14 @@
             [routerLink]="['/favorites']"
             routerLinkActive="active"
             >Preferiti</a
+          >
+        </li>
+        <li class="nav-item" *ngIf="utente">
+          <a
+            class="nav-link text-white"
+            [routerLink]="['/user']"
+            routerLinkActive="active"
+            >Profilo</a
           >
         </li>
         <li class="nav-item" *ngIf="!utente">

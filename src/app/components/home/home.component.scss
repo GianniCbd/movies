@@ -26,3 +26,39 @@
   background-color: rgb(228, 151, 19);
   color: black;
 }
+
+@media (min-width: 768px) {
+  .home-content {
+    .row {
+      .card {
+        width: 100%;
+        max-width: none;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .home-content {
+    .row {
+      .card {
+        width: 100%;
+        max-width: none;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .home-content {
+    .row {
+      .card {
+        width: 100%;
+        max-width: none;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
