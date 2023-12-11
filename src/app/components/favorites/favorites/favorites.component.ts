@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { Movies } from 'src/app/models/movies'; // Assuming Movies is the correct type
+import { Movies } from 'src/app/models/movies';
 import { MoviesService } from 'src/app/service/movies.service';
 
 @Component({
